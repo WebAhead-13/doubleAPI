@@ -93,13 +93,3 @@ form.addEventListener('submit',(e)=>{
     }
 })
 
-var swiper=new swiper('.swiper-container',
-slidesPerView:'auto',
-spaceBetween:40,
-centeredSlides:true,
-grabCursor:true,
-loop:true,
-pagination:{
-    el:'sw'
-}
-)
