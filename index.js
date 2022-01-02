@@ -27,7 +27,7 @@ const createMeal = (meal) => {
   const newInnerHTML = `
     <div class="row">
       <div class="columns five">
-        <img src="${meal.strMealThumb}" alt="Meal Image">
+        <img class="timg" src="${meal.strMealThumb}" alt="Meal Image">
         ${meal.strCategory ? `<p><strong>Category:</strong> ${meal.strCategory}</p>` : ''}
         ${meal.strArea ? `<p><strong>Area:</strong> ${meal.strArea}</p>` : ''}
         ${meal.strTags ? `<p><strong>Tags:</strong> ${meal.strTags.split(',').join(', ')}</p>` : ''}
@@ -41,7 +41,7 @@ const createMeal = (meal) => {
         <p>${meal.strInstructions}</p>
       </div>
     </div>
-    ''}
+    
   `;
   
   meal_container.innerHTML = newInnerHTML;
