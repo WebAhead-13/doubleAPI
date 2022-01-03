@@ -48,28 +48,6 @@ const createMeal = (meal) => {
 }
 
 
-
-
-
-
-
-// // SOCIAL PANEL JS
-// const floating_btn = document.querySelector('.floating-btn');
-// const close_btn = document.querySelector('.close-btn');
-// const social_panel_container = document.querySelector('.social-panel-container');
-
-// floating_btn.addEventListener('click', () => {
-//   social_panel_container.classList.toggle('visible')
-// });
-
-// close_btn.addEventListener('click', () => {
-//   social_panel_container.classList.remove('visible')
-// });
-
-
-
-
-
 // -------------------movie API----------------------
 const api_url="https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=39390d335495938eea2ecbf6351925e4";
 const IMG_URL='https://image.tmdb.org/t/p/w500';

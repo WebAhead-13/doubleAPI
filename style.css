@@ -4,8 +4,6 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Inconsolata", sans-serif;
-
-
 }
 
 .movie:hover
@@ -45,11 +43,10 @@ main {
   justify-content: center;
 }
 
-.timg{
+.timg {
   max-width: 30%;
   max-height: 30%;
   border-radius: 100%;
-  
 }
 
 /* +++++++++++++++++++++++++++Background Animation++++++++++++++++++++++++ */
@@ -67,30 +64,50 @@ body{
 	animation: 10s linear 0s normal none infinite animate;
  
 }
- 
+
 @-webkit-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
- 
+
 @-moz-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
- 
+
 @-ms-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
- 
+
 @-o-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
- 
+
 @keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
 
 
