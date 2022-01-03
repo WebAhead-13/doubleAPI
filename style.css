@@ -1,5 +1,5 @@
 body {
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -8,15 +8,22 @@ body {
 
 }
 
+.movie:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition-duration: 500ms;
+}
+
 .movie-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(35, 10, 82);
   color: aliceblue;
-  font-size: small;
   font-style: normal;
+
 }
 
 .movie > img {
@@ -44,6 +51,8 @@ main {
   border-radius: 100%;
   
 }
+
+/* +++++++++++++++++++++++++++Background Animation++++++++++++++++++++++++ */
 
 body{
 	margin:0;
